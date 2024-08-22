@@ -18,20 +18,14 @@ public class BotInfoController {
 //        list.add("si le");
 //        return list;
 //    }
-    public List<Map<String, String>> getBotinfo(){
-        List<Map<String, String>> list = new LinkedList<>();
+    public Map<String, String> getBotinfo(){
+
         Map<String, String> map1 = new HashMap<String, String>();
         map1.put("name", "tiger");
         map1.put("version", "1.0.0");
-        map1.put("aaa","ccc");
-        Map<String, String> m2 = new HashMap<String, String>();
-        m2.put("a1", "123");
-        m2.put("a4", "213");
-        m2.put("a6", "125");
-        m2.put("a2", "110");
-        list.add(map1);
-        list.add(m2);
-        return list;
+        
+
+        return map1;
 
     }
 }
