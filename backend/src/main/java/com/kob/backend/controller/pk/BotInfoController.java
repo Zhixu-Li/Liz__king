@@ -23,7 +23,7 @@ public class BotInfoController {
         Map<String, String> map1 = new HashMap<String, String>();
         map1.put("name", "tiger");
         map1.put("version", "1.0.0");
-        
+
 
         return map1;
 
